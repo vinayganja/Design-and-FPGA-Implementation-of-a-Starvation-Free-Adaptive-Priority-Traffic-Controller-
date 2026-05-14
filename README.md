@@ -1,4 +1,4 @@
-**Design and FPGA Implementation of a Starvation-Free Adaptive Priority Traffic Controller for Dynamic Intersection Management**
+#Design and FPGA Implementation of a Starvation-Free Adaptive Priority Traffic Controller for Dynamic Intersection Management
 
 ### Overview
 This mini-project presents a **smart, real-time adaptive traffic light control system** implemented on **FPGA** using **Verilog HDL**. Unlike traditional fixed-time controllers, this system dynamically adjusts green light duration based on real-time traffic density, gives **absolute priority to emergency vehicles** (zero-latency preemption), and incorporates **starvation-prevention timers** to ensure no road lane is ignored for too long. A robust **Moore FSM** ensures safe transitions with mandatory All-Red safety gaps.
